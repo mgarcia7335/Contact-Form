@@ -135,12 +135,11 @@ h1{
 /*......Desktok.....*/
 /*..................*/
 
-@media (width>900px){
-    body{
+@media (width>900px)
+    body {
         padding: 0px;
-      
     }
-
+      
     .primeros-datos{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -174,38 +173,54 @@ h1{
         grid-area: input-3;
     }
 
+
     .primeros-datos>input[type="text"]{
-       
         font-size: 20px;
     }
+       
     .labels{
         font-size: 20px;
     }
 
-
     .primeros-datos>.labels{
         max-width: 200px;
     }
+    
        
-    .part-1{
-        max-width: 250px;
-    }
-
     .query-types{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
         "label label"
-        "ckeck-1 ckeck-2";
+        "check-1 check-2";
     }
     .query-types>:first-child{
         grid-area: label;
     }
-
     .message{
         height: 300px;
     }
+     
+
+   
+      
+    
+
+    
+
+    
+    
+
+
+
+    
+
+
+
+
+
+
     
     
     
