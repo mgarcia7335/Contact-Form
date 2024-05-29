@@ -139,7 +139,7 @@ h1{
 /*......Desktok.....*/
 /*..................*/
 
-@media (width>900px)
+@media (width>900px){
     body{
         padding: 0px;
     }
@@ -204,8 +204,9 @@ h1{
     }
     .message{
         height: 300px;
+        
     }
-     
+}
 
    
       
@@ -250,7 +251,6 @@ h1{
     
 
 
-}
 
 
 
