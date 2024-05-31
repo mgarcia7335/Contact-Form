@@ -141,7 +141,7 @@ h1{
 
 @media (width>900px){
     body{
-        padding: 0px;
+        padding: 50px 400px 50px 400px;
     }
       
     .primeros-datos{
@@ -154,6 +154,7 @@ h1{
         "label-3 label-3"
         "input-3 input-3";
         gap: 20px;
+        
     }
     .label-1{
         align-self: self-end;
