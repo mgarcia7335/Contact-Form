@@ -205,8 +205,13 @@ h1{
     }
     .message{
         height: 300px;
-        
     }
+    .consent{
+        display: flex;
+        justify-content: flex-start;
+    }
+      
+        
 }
 
    
